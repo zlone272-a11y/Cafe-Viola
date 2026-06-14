@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ethel's Menu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+font-family:Inter,sans-serif;
+background:#f7f3ee;
+color:#2b2b2b;
+}
+
+/* HEADER */
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.08);
+position:sticky;
+top:0;
+}
+
+header a{
+text-decoration:none;
+color:#c6a46a;
+font-weight:600;
+}
+
+h1{
+text-align:center;
+font-family:"Playfair Display",serif;
+margin:40px 0;
+font-size:40px;
+}
+
+/* MENU CONTAINER */
+.container{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+.section{
+margin-bottom:40px;
+}
+
+.section h2{
+font-family:"Playfair Display",serif;
+color:#c6a46a;
+border-bottom:2px solid #c6a46a;
+padding-bottom:5px;
+margin-bottom:15px;
+}
+
+/* ITEM BOX */
+.item{
+display:flex;
+justify-content:space-between;
+background:white;
+padding:15px 20px;
+margin-bottom:10px;
+border-radius:12px;
+box-shadow:0 5px 12px rgba(0,0,0,0.06);
+transition:0.3s;
+}
+
+.item:hover{
+transform:translateY(-3px);
+box-shadow:0 8px 18px rgba(0,0,0,0.1);
+}
+
+.item span:first-child{
+font-weight:500;
+}
+
+.price{
+color:#c6a46a;
+font-weight:600;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:40px;
+margin-top:50px;
+background:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<a href="index.html">← Home</a>
+<div style="font-family:'Playfair Display',serif;font-size:20px;">Ethel's Menu</div>
+<div></div>
+</header>
+
+<h1>Our Menu</h1>
+
+<div class="container">
+
+<!-- BREAKFAST -->
+<div class="section">
+<h2>Breakfast</h2>
+
+<div class="item">
+<span>Full English Breakfast</span>
+<span class="price">£10.95</span>
+</div>
+
+<div class="item">
+<span>Vegetarian Breakfast</span>
+<span class="price">£9.95</span>
+</div>
+
+<div class="item">
+<span>Avocado Toast</span>
+<span class="price">£7.50</span>
+</div>
+</div>
+
+<!-- SANDWICHES -->
+<div class="section">
+<h2>Sandwiches</h2>
+
+<div class="item">
+<span>Chicken Mayo Sandwich</span>
+<span class="price">£6.95</span>
+</div>
+
+<div class="item">
+<span>Tuna Melt Panini</span>
+<span class="price">£6.95</span>
+</div>
+
+<div class="item">
+<span>BLT Sandwich</span>
+<span class="price">£7.25</span>
+</div>
+</div>
+
+<!-- COFFEE -->
+<div class="section">
+<h2>Coffee</h2>
+
+<div class="item">
+<span>Latte</span>
+<span class="price">£3.50</span>
+</div>
+
+<div class="item">
+<span>Cappuccino</span>
+<span class="price">£3.50</span>
+</div>
+
+<div class="item">
+<span>Americano</span>
+<span class="price">£3.20</span>
+</div>
+
+<div class="item">
+<span>Flat White</span>
+<span class="price">£3.60</span>
+</div>
+</div>
+
+<!-- CAKES -->
+<div class="section">
+<h2>Cakes & Pastries</h2>
+
+<div class="item">
+<span>Chocolate Fudge Cake</span>
+<span class="price">£4.50</span>
+</div>
+
+<div class="item">
+<span>Carrot Cake</span>
+<span class="price">£4.20</span>
+</div>
+
+<div class="item">
+<span>Croissant</span>
+<span class="price">£2.80</span>
+</div>
+</div>
+
+<!-- DRINKS -->
+<div class="section">
+<h2>Drinks</h2>
+
+<div class="item">
+<span>Hot Chocolate</span>
+<span class="price">£3.80</span>
+</div>
+
+<div class="item">
+<span>Iced Coffee</span>
+<span class="price">£4.20</span>
+</div>
+
+<div class="item">
+<span>Fresh Orange Juice</span>
+<span class="price">£3.50</span>
+</div>
+</div>
+
+</div>
+
+<footer>
+📍 Ethel's Coffee + Kitchen | ☎ 07XXX XXX XXX
+</footer>
+
+</body>
+</html>
